@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Popup-healofy</string>
+    <string-array name="countries">
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>China</item>
+        <item>Canada</item>
+        <item>Israel</item>
+        <item>Germany</item>
+        <item>Italy</item>
+    </string-array>
+
+    <string-array name="indian_cities">
+        <item>Gujarat</item>
+        <item>Delhi</item>
+        <item>Hyderabad</item>
+        <item>Bangalore</item>
+        <item>Chennai</item>
+        <item>Lucknow</item>
+        <item>Kolkata</item>
+        <item>Mumbai</item>
+    </string-array>
+
+    <string-array name="pakistan_cities">
+        <item>Islamabad</item>
+        <item>Lahore</item>
+        <item>Multan</item>
+        <item>Karachi</item>
+        <item>Peshawar</item>
+        <item>Rawalpindi</item>
+        <item>Sialkot</item>
+    </string-array>
+
+    <string-array name="canada_cities">
+        <item>Montreal</item>
+        <item>Vancouver</item>
+        <item>Toronto</item>
+        <item>Ottawa</item>
+        <item>Calgary</item>
+        <item>Edmonton</item>
+        <item>Windsor</item>
+    </string-array>
+
+    <string-array name="china_cities">
+        <item>Shanghai</item>
+        <item>Xindong</item>
+        <item>Beijing</item>
+        <item>Chengdu</item>
+        <item>Tianjin</item>
+        <item>Wuhan</item>
+        <item>Nanjing</item>
+    </string-array>
+
+    <string-array name="germany_cities">
+        <item>Munich</item>
+        <item>Berlin</item>
+        <item>Hamburg</item>
+        <item>Frankfurt</item>
+        <item>Cologne</item>
+        <item>Stuttgart</item>
+        <item>Gresden</item>
+    </string-array>
+
+    <string-array name="israel_cities">
+        <item>Tel Aviv</item>
+        <item>Jerusalem</item>
+        <item>Haifa</item>
+        <item>Eilat</item>
+        <item>Holon</item>
+        <item>Acre</item>
+        <item>Ramat Gan</item>
+    </string-array>
+
+    <string-array name="italy_cities">
+        <item>Rome</item>
+        <item>Venice</item>
+        <item>Florence</item>
+        <item>Milan</item>
+        <item>Naples</item>
+        <item>Genoa</item>
+        <item>Palermo</item>
+    </string-array>
+</resources>
