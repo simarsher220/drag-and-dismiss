@@ -1,16 +1,12 @@
 package com.example.popup_healofy;
 
-import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class PopupAdapter extends RecyclerView.Adapter<PopupAdapter.CityHolder> {
@@ -55,7 +51,7 @@ public class PopupAdapter extends RecyclerView.Adapter<PopupAdapter.CityHolder> 
         public CityHolder(View itemView) {
             super(itemView);
             setIsRecyclable(false);
-            cityName = itemView.findViewById(R.id.city_name);
+            cityName = itemView.findViewById(R.id.comment);
         }
 
         public void bind(int position){

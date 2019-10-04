@@ -3,17 +3,11 @@ package com.example.popup_healofy;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.DisplayMetrics;
-import android.util.TypedValue;
-import android.view.Gravity;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ListView;
-import android.widget.PopupWindow;
 import android.widget.TextView;
 
 import xyz.klinker.android.drag_dismiss.DragDismissIntentBuilder;
@@ -28,7 +22,7 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        listView = findViewById(R.id.countries);
+        listView = findViewById(R.id.posts);
         strings = getResources().getTextArray(R.array.countries);
         ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, strings){
             @Override
